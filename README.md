@@ -1,1 +1,1 @@
-# algoritmos_e_estrutura_de_dados1
+# exercicios_algoritmos_e_estrutura_de_dados1

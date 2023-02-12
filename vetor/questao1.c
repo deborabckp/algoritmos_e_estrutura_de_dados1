@@ -82,7 +82,9 @@ int main(void){
     printf("\n%.2f%% de pessoas do sexo feminino gostaram do produto\n", percentual_feminino);
 
     printf("\n%.2f%% de pessoas do sexo masculino não gostaram do produto\n", percentual_masculino);
-
+    
+    free(sexo);
+    free(opiniao);
 
     return 0;
 }

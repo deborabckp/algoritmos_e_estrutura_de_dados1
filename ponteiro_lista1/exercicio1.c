@@ -1,5 +1,3 @@
-//Exercício 1: Quais serão os valores de x,y e p, ao final do trecho de código abaixo:
-
 #include<stdio.h> 
 
 int main(){ 

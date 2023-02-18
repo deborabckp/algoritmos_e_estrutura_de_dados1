@@ -1,3 +1,6 @@
+//3. Faça um programa que recebe nomes de frutas e seu preço. A quantidade frutas deve ser informada
+//pelo o usuário. Utilize alocação dinâmica, especialmente a função realloc para não desperdiçar memória.
+
 #include <stdio.h> //biblioteca padrão
 #include <stdlib.h> //biblioteca pra alocação dinâmica
 

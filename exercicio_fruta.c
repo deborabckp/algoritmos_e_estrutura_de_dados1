@@ -47,11 +47,9 @@ int main(void){
         exit(1);
     }
 
-    printf("\nFruta\t\tValor\n");//imprimindo mensagem
-
     //fiz uma estrutura de repetição, o contador começa de 0 e vai ate quantidade - 1
     for (contador = 0; contador < quantidade; contador++){
-        printf("%s\t\t%.1f\n", frutas[contador], preco[contador]);//imprimindo o nome das frutas e os preços digitados
+        printf("\nA fruta é: %s\nO preço da fruta é: R$%.2f\n", frutas[contador], preco[contador]);//imprimindo o nome das frutas e os preços digitados
     }
 
     //fiz uma estrutura de repetição, o contador começa de 0 e vai ate quantidade - 1

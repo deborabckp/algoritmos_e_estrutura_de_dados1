@@ -1,5 +1,5 @@
 /*
-Escreva um programa para corrigir provas de múltipla escolha.
+Questão 2) Escreva um programa para corrigir provas de múltipla escolha.
 Cada prova tem N questões e cada questão vale 10/N pontos.
 Os primeiros dados a serem lidos são o número de questões e o gabarito da prova.
 Em seguida, serão lidas as respectivas respostas de um total de 10 alunos matriculados.
@@ -18,6 +18,12 @@ int main() {
     int contador1, contador2; //declarei duas variáveis do tipo int para ser os contadores para as estruturas de repetições
     
     char* gabarito = (char*) malloc(questoes * sizeof(char)); //aloquei dinamicamente um espaço na memória para a variável gabarito do tipo char
+    
+        //testando se a alocação deu certo
+        if(gabarito == NULL){
+            printf("Erro ao alocar memória");
+            exit(1);
+        }
 
     printf("Digite o número de questões: "); //imprimindo mensagem
     scanf("%d", &questoes); //pedindo ao usuário um numero inteiro para armazenar na variável questoes
@@ -44,6 +50,13 @@ int main() {
     printf("\n"); //quebra de linha
 
     float* notas = (float*) malloc(10 * sizeof(float)); //aloquei dinamicamente um espaço na memória para o vetor notas do tipo float
+
+        //testando se a alocação deu certo
+        if(gabarito == NULL){
+            printf("Erro ao alocar memória");
+            exit(1);
+        }
+
     int aprovados = 0, acertos = 0; //declarei duas variáveis do tipo inteiro e inicializei as duas com 0
     float nota; //declarei uma variável do tipo float
     float percentual; //declarei uma variável do tipo float
